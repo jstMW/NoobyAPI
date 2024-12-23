@@ -31,3 +31,18 @@ explain later...
 # Start with Gradle project
 
 - ![Starter Guide](https://docs.gradle.org/current/samples/sample_building_java_libraries.html)
+
+# smaller steps
+
+- build the API
+  - Authenticate
+    - get user token
+    - change it to base64
+    - add it to the header
+  - chose the API url based on documnetation
+    - build an Enum of supported APIs of the given documnetation
+  - Craft the packet to send
+
+- send the request
+- receive the response
+- take appropriate actions
