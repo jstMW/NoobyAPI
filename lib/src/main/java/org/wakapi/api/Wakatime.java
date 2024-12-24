@@ -4,13 +4,19 @@
 
 package org.wakapi.api;
 
+import jakarta.json.JsonObject;
 import jakarta.json.Json;
 
 class Wakatime extends AbstractAPI {
 
-    void getLeaders() {
+    int getLeaders() {
         // buildPacket();
         // buildHttpClient();
 
+        JsonObject response = Json.createObjectBuilder()
+                .add("te", "st")
+                .build();
+
+        return 2;
     }
 }
