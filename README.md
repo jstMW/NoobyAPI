@@ -46,3 +46,7 @@ explain later...
 - send the request
 - receive the response
 - take appropriate actions
+
+### Other resources that helped
+
+- Failed to push quick fixes – The process '/usr/bin/gh' failed with exit code 1
