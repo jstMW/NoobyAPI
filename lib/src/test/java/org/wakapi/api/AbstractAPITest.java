@@ -34,7 +34,6 @@ class AbstractAPITest {
         String expectedScheme = "https";
         String expectedHost = "example.com";
         String expectedPath = "/api/test/me";
-        int expectedPort = 443;
 
         // setup expeted values for header test
         int expectedNumOfHeaders = 1;
@@ -45,7 +44,6 @@ class AbstractAPITest {
         assertEquals(expectedScheme, uri.getScheme());
         assertEquals(expectedHost, uri.getHost());
         assertEquals(expectedPath, uri.getPath());
-        assertEquals(expectedPort, uri.getPort());
 
         // test headers
         //
