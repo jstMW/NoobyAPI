@@ -20,6 +20,10 @@ Add a value ot the community!
 
 umm, except some code lifting... yeeeesss... :)
 
+## How I'm doing right now?
+
+![Report](./report/test/index.html)
+
 ## This is part of the bigger project
 
 explain later...
