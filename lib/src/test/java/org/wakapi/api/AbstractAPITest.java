@@ -31,7 +31,7 @@ class AbstractAPITest {
 
         // setup expeted values for uri test
         URI uri = request.uri();
-        String expectedScheme = "https://";
+        String expectedScheme = "https";
         String expectedHost = "example.com";
         String expectedPath = "/api/test/me";
         int expectedPort = 443;
