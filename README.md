@@ -22,7 +22,7 @@ umm, except some code lifting... yeeeesss... :)
 
 ## How I'm doing right now?
 
-![Report](./report/test/testReport.png)
+![Report](./report/tests/testReport.png)
 
 ## This is part of the bigger project
 
