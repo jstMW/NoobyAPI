@@ -7,9 +7,9 @@ package org.wakapi.api;
 import jakarta.json.JsonObject;
 import jakarta.json.Json;
 
-class Wakatime extends AbstractAPI {
+public class Wakatime extends AbstractAPI {
 
-    int getLeaders() {
+    public int getLeaders() {
         // buildPacket();
         // buildHttpClient();
 
