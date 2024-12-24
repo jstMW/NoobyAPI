@@ -47,6 +47,12 @@ explain later...
 - receive the response
 - take appropriate actions
 
+### Changes in the process
+
+- at some point I need to convert the API documnetation to code and if it updates then I should update the code as well. Also, I had a lot of difficulties implementing them so, I decided to use .json file to load the documnetation and possibly make a github action to monitor the changes in that file in the wakapi repo so when it changed, update mine. Or maybe just update it whenever the user use the repo! I don't know now but let's see what will happen.
+  - doc: <https://github.com/muety/wakapi/blob/master/static/docs/swagger.json>
+  - What I ended up doing?
+
 ### Other resources that helped
 
 - Failed to push quick fixes – The process '/usr/bin/gh' failed with exit code 1
