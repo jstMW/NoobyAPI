@@ -50,3 +50,4 @@ explain later...
 ### Other resources that helped
 
 - Failed to push quick fixes – The process '/usr/bin/gh' failed with exit code 1
+  - solution: <https://stackoverflow.com/questions/72376229/github-actions-is-not-permitted-to-create-or-approve-pull-requests-createpullre/78864317#78864317>
