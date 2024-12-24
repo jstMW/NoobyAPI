@@ -13,7 +13,7 @@ abstract class AbstractAPI {
     public AbstractAPI() {
     };
 
-    public HttpRequest buildHttpRequest(String uri, String authVal) {
+    public static HttpRequest buildHttpRequest(String uri, String authVal) {
 
         return HttpRequest.newBuilder()
                 .GET()
@@ -22,7 +22,7 @@ abstract class AbstractAPI {
                 .build();
     }
 
-    public String buildAuthVal(String apiKey) {
+    public static String buildAuthVal(String apiKey) {
         // as apears in the api docs
         StringBuilder authVal = new StringBuilder("Basic ");
         // followd by Base64 of the apiKey

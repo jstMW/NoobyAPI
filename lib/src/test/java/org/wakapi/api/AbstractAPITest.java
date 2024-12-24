@@ -4,6 +4,7 @@
 
 package org.wakapi.api;
 
+import org.apache.commons.math3.analysis.function.Abs;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -16,19 +17,17 @@ import java.util.Map;
 class AbstractAPITest {
     @Test
     void buildAuthValTest() {
-        AbstractAPI classUnderTest = new Library();
         String apiKey = "Some Random String of char";
         String expectied_AuthVal = "Basic U29tZSBSYW5kb20gU3RyaW5nIG9mIGNoYXI=";
-        assertEquals(expectied_AuthVal, classUnderTest.buildAuthVal(apiKey));
+        assertEquals(expectied_AuthVal, AbstractAPI.buildAuthVal(apiKey));
     }
 
     @Test
     void buildHttpRequest() {
         // setup initial condition
-        AbstractAPI classUnderTest = new Library();
         String url = "https://example.com/api/test/me";
         String authVal = "authentication value";
-        HttpRequest request = classUnderTest.buildHttpRequest(url, authVal);
+        HttpRequest request = AbstractAPI.buildHttpRequest(url, authVal);
 
         // setup expeted values for uri test
         URI uri = request.uri();
