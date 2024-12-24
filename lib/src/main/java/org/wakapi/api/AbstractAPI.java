@@ -9,11 +9,8 @@ import java.net.URI;
 import java.util.Base64;
 
 abstract class AbstractAPI {
-    public boolean someLibraryMethod() {
-        return true;
-    }
 
-    public Library() {
+    public AbstractAPI() {
     };
 
     public HttpRequest buildHttpRequest(String uri, String authVal) {
