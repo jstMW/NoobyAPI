@@ -10,8 +10,6 @@ import jakarta.json.Json;
 public class Wakatime extends AbstractAPI {
 
     public int getLeaders() {
-        // buildPacket();
-        // buildHttpClient();
 
         JsonObject response = Json.createObjectBuilder()
                 .add("te", "st")

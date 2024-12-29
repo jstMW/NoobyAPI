@@ -11,7 +11,7 @@ import java.util.Base64;
 abstract class AbstractAPI {
 
     public AbstractAPI() {
-    };
+    }
 
     public static HttpRequest buildHttpRequest(String uri, String authVal) {
 
